@@ -1,0 +1,211 @@
+/* *****************************************************************************************************************
+ * Theme5
+ */
+
+/* Color1 */
+
+.theme5 header,
+.theme5 header a,
+.theme5 .full.color3,
+.theme5 .color3 .tagline,
+.theme5 .color2,
+.theme5 .slides_container .caption,
+.theme5 .flex-direction-nav li a:before,
+.theme5 footer ul.social a,
+.theme5 .color1 .btn-small,
+.theme5 .color1 .btn-big,
+.theme5 .item h2,
+.theme5 .item .inner:before,
+.theme5 .filters a:hover,
+.theme5 .filters li.active a,
+.theme5 .color2 .filters a,
+.theme5 .color2 .isotope-loading,
+.theme5 .color2 .isotope-loading a,
+.theme5 .color3 .isotope-loading,
+.theme5 .color3 .isotope-loading a,
+.theme5 .color1 .search,
+.theme5 .color1 .search a,
+.theme5 .color1 .search input,
+.theme5 .color1 form input,
+.theme5 .color1 form textarea,
+.theme5 .color1 ul.categories a,
+.theme5 .color1 .accordion .acc-title {
+	color: #232323 !important; /* !important because footer icon color */
+}
+::selection{
+	color: #232323 !important;
+}
+::-moz-selection {  /* has to be separated from ::selection */
+	color: #232323;
+}
+
+.theme5 .color1,
+.theme5 .color1 .arrow,
+.theme5 .color1 .iconic > :first-child:before,
+.theme5 .color1 .iconic:after,
+.theme5 .color2 .btn-small:hover,
+.theme5 .color2 .btn-big:hover,
+.theme5 .color3 .btn-small:hover,
+.theme5 .color3 .btn-big:hover,
+.theme5 .color3 ul.categories a,
+.theme5 .color2 form input,
+.theme5 .color2 form textarea,
+.theme5 .color2 .accordion .acc-title,
+.theme5 .color3 .accordion .acc-title {
+	background: #232323;
+}
+
+.theme5 .color2 .iconic > :first-child:before,
+.theme5 .color2 .iconic:before,
+.theme5 .color3 .iconic > :first-child:before,
+.theme5 .color3 .iconic:before,
+.theme5 .color2 .iconic h1:after, .theme5 .color2 .iconic h2:after, .theme5 .color2 .iconic h3:after, .theme5 .color2 .iconic h4:after,
+.theme5 .color3 .iconic h1:after, .theme5 .color3 .iconic h2:after, .theme5 .color3 .iconic h3:after, .theme5 .color2 .iconic h4:after {
+	border-color: #232323;
+}
+
+.theme5 .color2 .iconic:after,
+.theme5 header nav ul li a.sub:before,
+.theme5 .color3 .iconic:after{
+	border-color: #232323 transparent;
+}
+
+/* Color2 */
+.theme5 .color3.tagline span,
+.theme5 .color3 a,
+.theme5 .color1 a,
+.theme5 .color1 h1 span, .theme5 .color3 h1 span,
+.theme5 .color1 h2 span, .theme5 .color3 h2 span,
+.theme5 .color1 h3 span, .theme5 .color3 h3 span,
+.theme5 .color1 h4 span, .theme5 .color3 h4 span,
+.theme5 .color1 h5 span, .theme5 .color3 h5 span,
+.theme5 .color1 h6 span, .theme5 .color3 h6 span,
+.theme5 .color1 .tags a:hover,
+.theme5 .color2 .btn-small,
+.theme5 .color2 .btn-big,
+.theme5 .color3 .iconic:before,
+.theme5 .color1 .tagline span,
+.theme5 .color1 ul.tags:before,
+.theme5 .color1 .isotope-loading span,
+.theme5 .color3 .isotope-loading span,
+.theme5 .color1 ul.social a:hover,
+.theme5 .color3 .google-map,
+.theme5 .color2 .post-content span,
+.theme5 .comments span:before,
+.theme5 .color2 .accordion .acc-title {
+	color: #dc1f00;
+}
+
+.theme5 header.color2,
+.theme5 .color2,
+.theme5 .color2 .arrow,
+.theme5 .color2 .iconic > :first-child:before,
+.theme5 .color2 .iconic:after,
+.theme5 .color2 .iconic:after,
+.theme5 .flex-direction-nav li a,
+.theme5 .color1 .btn-small,
+.theme5 .color1 .btn-big,
+.theme5 .color3 .btn-small,
+.theme5 .color3 .btn-big,
+.theme5 .color3 ul.categories a:hover,
+.theme5 .color1 ul.categories a:hover,
+.theme5 .item .inner:before,
+.theme5 .color1 .filters ul li.active > a,
+.theme5 .color1 .filters ul li a:hover,
+.theme5 .color3 .filters ul li.active > a,
+.theme5 .color3 .filters ul li a:hover,
+.theme5 .color1 .search, .theme5 .color1 .search input,
+.theme5 .color1 .accordion .active .acc-title,
+.theme5 .color1 .accordion .acc-title:hover,
+.theme5 .color3 .accordion .active .acc-title,
+.theme5 .color3 .accordion .acc-title:hover {
+	background: #dc1f00;
+}
+::selection{
+	background: #dc1f00;
+}
+::-moz-selection {  /* has to be separated from ::selection */
+	background: #dc1f00;
+}
+
+.theme5 .color1 .iconic > :first-child:before,
+.theme5 .color1 .iconic:before,
+.theme5 .color1 .iconic h1:after, .theme5 .color1 .iconic h2:after, .theme5 .color1 .iconic h3:after, .theme5 .color1 .iconic h4:after {
+	border-color: #dc1f00;
+}
+
+.theme5 .color1 .iconic:after {
+	border-color: #dc1f00 transparent;
+}
+
+/* Color3 */
+body.theme5,
+.theme5 .color2 a,
+.theme5 .color2.tagline span,
+.theme5 header .title span,
+.theme5 .color2 h1 span,
+.theme5 .color2 h2 span,
+.theme5 .color2 h3 span,
+.theme5 .color2 h4 span,
+.theme5 .color2 h5 span,
+.theme5 .color2 h6 span,
+.theme5 .color1 .iconic > :first-child:before,
+.theme5 .color1 .tags a,
+.theme5 .color3 .btn-small,
+.theme5 .color3 .btn-big,
+.theme5 .color3 ul.categories a,
+.theme5 .color2 .iconic:before,
+.theme5 .color1 .tagline,
+.theme5 .color2 .tagline span,
+.theme5 .color1 .filters a,
+.theme5 .color1 .isotope-loading,
+.theme5 .color1 .isotope-loading a,
+.theme5 .color2 .isotope-loading span,
+.theme5 .color1 ul.social a,
+input, textarea,
+.theme5 .color3 .accordion .acc-title {
+	color: #fff;
+}
+
+.theme5 header nav ul li.active > a,
+.theme5 header nav ul li a:hover,
+.theme5 .full.color3,
+.theme5 .color3 .arrow,
+.theme5 .taglineimg .caption-bg,
+.theme5 .color3 .arrow,
+.theme5 .color3 .iconic > :first-child:before,
+.theme5 .color3 .iconic:after,
+.theme5 .flex-direction-nav li a:hover,
+.theme5 footer ul.social a:hover,
+.theme5 footer ul.social li.active a:hover,
+.theme5 .color1 .btn-small:hover,
+.theme5 .color1 .btn-big:hover,
+.theme5 .color2 .btn-small,
+.theme5 .color2 .btn-big,
+.theme5 .item .post-content,
+.theme5 .color2 .filters ul li.active > a,
+.theme5 .color2 .filters ul li a:hover,
+.theme5 .color3 .google-map,
+.theme5 .color1 form input,
+.theme5 .color1 form textarea,
+.theme5 .color1 ul.categories a,
+.theme5 .color1 .accordion .acc-title,
+.theme5 .color2 .accordion .active .acc-title,
+.theme5 .color2 .accordion .acc-title:hover {
+	background: #fff;
+}
+
+.theme5 header,
+.theme5 footer{
+	border-color: #fff;
+}
+
+.theme5 header nav ul li a.sub:hover:before,
+.theme5 header nav ul li.active > a:before{
+	border-color: #fff transparent;
+}
+
+.theme5 .slides_container .caption{
+	background: #fff;
+	background: rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,35 @@
+<IfModule mod_rewrite.c>
+
+	Options +FollowSymLinks -Indexes
+	RewriteEngine on
+
+	# NOTICE: If you get a 404 play with combinations of the following commented out lines
+	#AllowOverride All
+	#RewriteBase /
+
+	# Restrict your site to only one domain
+	#RewriteCond %{HTTP_HOST} !^www\.
+	#RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+
+	<IfModule mod_php5.c>
+		RewriteRule ^(.*)$ index.php/$1 [L]
+	</IfModule>
+
+	<IfModule !mod_php5.c>
+		RewriteRule ^(.*)$ index.php?/$1 [L]
+	</IfModule>
+
+</IfModule>
+
+#prevent access to htaccess file
+<Files .htaccess>
+ order allow,deny
+ deny from all
+</Files>
+
+#disable directory browsing
+Options All -Indexes
+IndexIgnore *

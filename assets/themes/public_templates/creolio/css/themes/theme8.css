@@ -1,0 +1,211 @@
+/* *****************************************************************************************************************
+ * Theme8
+ */
+
+/* Color1 */
+
+.theme8 header,
+.theme8 header a,
+.theme8 .full.color3,
+.theme8 .color3 .tagline,
+.theme8 .color2,
+.theme8 .slides_container .caption,
+.theme8 .flex-direction-nav li a:before,
+.theme8 footer ul.social a,
+.theme8 .color1 .btn-small,
+.theme8 .color1 .btn-big,
+.theme8 .item h2,
+.theme8 .item .inner:before,
+.theme8 .filters a:hover,
+.theme8 .filters li.active a,
+.theme8 .color2 .filters a,
+.theme8 .color2 .isotope-loading,
+.theme8 .color2 .isotope-loading a,
+.theme8 .color3 .isotope-loading,
+.theme8 .color3 .isotope-loading a,
+.theme8 .color1 .search,
+.theme8 .color1 .search a,
+.theme8 .color1 .search input,
+.theme8 .color1 form input,
+.theme8 .color1 form textarea,
+.theme8 .color1 ul.categories a,
+.theme8 .color1 .accordion .acc-title {
+	color: #29222d !important; /* !important because footer icon color */
+}
+::selection{
+	color: #29222d !important;
+}
+::-moz-selection {  /* has to be separated from ::selection */
+	color: #29222d;
+}
+
+.theme8 .color1,
+.theme8 .color1 .arrow,
+.theme8 .color1 .iconic > :first-child:before,
+.theme8 .color1 .iconic:after,
+.theme8 .color2 .btn-small:hover,
+.theme8 .color2 .btn-big:hover,
+.theme8 .color3 .btn-small:hover,
+.theme8 .color3 .btn-big:hover,
+.theme8 .color3 ul.categories a,
+.theme8 .color2 form input,
+.theme8 .color2 form textarea,
+.theme8 .color2 .accordion .acc-title,
+.theme8 .color3 .accordion .acc-title {
+	background: #29222d;
+}
+
+.theme8 .color2 .iconic > :first-child:before,
+.theme8 .color2 .iconic:before,
+.theme8 .color3 .iconic > :first-child:before,
+.theme8 .color3 .iconic:before,
+.theme8 .color2 .iconic h1:after, .theme8 .color2 .iconic h2:after, .theme8 .color2 .iconic h3:after, .theme8 .color2 .iconic h4:after,
+.theme8 .color3 .iconic h1:after, .theme8 .color3 .iconic h2:after, .theme8 .color3 .iconic h3:after, .theme8 .color2 .iconic h4:after {
+	border-color: #29222d;
+}
+
+.theme8 .color2 .iconic:after,
+.theme8 header nav ul li a.sub:before,
+.theme8 .color3 .iconic:after{
+	border-color: #29222d transparent;
+}
+
+/* Color2 */
+.theme8 .color3.tagline span,
+.theme8 .color3 a,
+.theme8 .color1 a,
+.theme8 .color1 h1 span, .theme8 .color3 h1 span,
+.theme8 .color1 h2 span, .theme8 .color3 h2 span,
+.theme8 .color1 h3 span, .theme8 .color3 h3 span,
+.theme8 .color1 h4 span, .theme8 .color3 h4 span,
+.theme8 .color1 h5 span, .theme8 .color3 h5 span,
+.theme8 .color1 h6 span, .theme8 .color3 h6 span,
+.theme8 .color1 .tags a:hover,
+.theme8 .color2 .btn-small,
+.theme8 .color2 .btn-big,
+.theme8 .color3 .iconic:before,
+.theme8 .color1 .tagline span,
+.theme8 .color1 ul.tags:before,
+.theme8 .color1 .isotope-loading span,
+.theme8 .color3 .isotope-loading span,
+.theme8 .color1 ul.social a:hover,
+.theme8 .color3 .google-map,
+.theme8 .color2 .post-content span,
+.theme8 .comments span:before,
+.theme8 .color2 .accordion .acc-title {
+	color: #916ba5;
+}
+
+.theme8 header.color2,
+.theme8 .color2,
+.theme8 .color2 .arrow,
+.theme8 .color2 .iconic > :first-child:before,
+.theme8 .color2 .iconic:after,
+.theme8 .color2 .iconic:after,
+.theme8 .flex-direction-nav li a,
+.theme8 .color1 .btn-small,
+.theme8 .color1 .btn-big,
+.theme8 .color3 .btn-small,
+.theme8 .color3 .btn-big,
+.theme8 .color3 ul.categories a:hover,
+.theme8 .color1 ul.categories a:hover,
+.theme8 .item .inner:before,
+.theme8 .color1 .filters ul li.active > a,
+.theme8 .color1 .filters ul li a:hover,
+.theme8 .color3 .filters ul li.active > a,
+.theme8 .color3 .filters ul li a:hover,
+.theme8 .color1 .search, .theme8 .color1 .search input,
+.theme8 .color1 .accordion .active .acc-title,
+.theme8 .color1 .accordion .acc-title:hover,
+.theme8 .color3 .accordion .active .acc-title,
+.theme8 .color3 .accordion .acc-title:hover {
+	background: #916ba5;
+}
+::selection{
+	background: #916ba5;
+}
+::-moz-selection {  /* has to be separated from ::selection */
+	background: #916ba5;
+}
+
+.theme8 .color1 .iconic > :first-child:before,
+.theme8 .color1 .iconic:before,
+.theme8 .color1 .iconic h1:after, .theme8 .color1 .iconic h2:after, .theme8 .color1 .iconic h3:after, .theme8 .color1 .iconic h4:after {
+	border-color: #916ba5;
+}
+
+.theme8 .color1 .iconic:after {
+	border-color: #916ba5 transparent;
+}
+
+/* Color3 */
+body.theme8,
+.theme8 .color2 a,
+.theme8 .color2.tagline span,
+.theme8 header .title span,
+.theme8 .color2 h1 span,
+.theme8 .color2 h2 span,
+.theme8 .color2 h3 span,
+.theme8 .color2 h4 span,
+.theme8 .color2 h5 span,
+.theme8 .color2 h6 span,
+.theme8 .color1 .iconic > :first-child:before,
+.theme8 .color1 .tags a,
+.theme8 .color3 .btn-small,
+.theme8 .color3 .btn-big,
+.theme8 .color3 ul.categories a,
+.theme8 .color2 .iconic:before,
+.theme8 .color1 .tagline,
+.theme8 .color2 .tagline span,
+.theme8 .color1 .filters a,
+.theme8 .color1 .isotope-loading,
+.theme8 .color1 .isotope-loading a,
+.theme8 .color2 .isotope-loading span,
+.theme8 .color1 ul.social a,
+input, textarea,
+.theme8 .color3 .accordion .acc-title {
+	color: #fff;
+}
+
+.theme8 header nav ul li.active > a,
+.theme8 header nav ul li a:hover,
+.theme8 .full.color3,
+.theme8 .color3 .arrow,
+.theme8 .taglineimg .caption-bg,
+.theme8 .color3 .arrow,
+.theme8 .color3 .iconic > :first-child:before,
+.theme8 .color3 .iconic:after,
+.theme8 .flex-direction-nav li a:hover,
+.theme8 footer ul.social a:hover,
+.theme8 footer ul.social li.active a:hover,
+.theme8 .color1 .btn-small:hover,
+.theme8 .color1 .btn-big:hover,
+.theme8 .color2 .btn-small,
+.theme8 .color2 .btn-big,
+.theme8 .item .post-content,
+.theme8 .color2 .filters ul li.active > a,
+.theme8 .color2 .filters ul li a:hover,
+.theme8 .color3 .google-map,
+.theme8 .color1 form input,
+.theme8 .color1 form textarea,
+.theme8 .color1 ul.categories a,
+.theme8 .color1 .accordion .acc-title,
+.theme8 .color2 .accordion .active .acc-title,
+.theme8 .color2 .accordion .acc-title:hover {
+	background: #fff;
+}
+
+.theme8 header,
+.theme8 footer{
+	border-color: #fff;
+}
+
+.theme8 header nav ul li a.sub:hover:before,
+.theme8 header nav ul li.active > a:before{
+	border-color: #fff transparent;
+}
+
+.theme8 .slides_container .caption{
+	background: #fff;
+	background: rgba(255, 255, 255, 0.5);
+}

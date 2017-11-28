@@ -1,0 +1,211 @@
+/* *****************************************************************************************************************
+ * Theme4
+ */
+
+/* Color1 */
+
+.theme4 header,
+.theme4 header a,
+.theme4 .full.color3,
+.theme4 .color3 .tagline,
+.theme4 .color2,
+.theme4 .slides_container .caption,
+.theme4 .flex-direction-nav li a:before,
+.theme4 footer ul.social a,
+.theme4 .color1 .btn-small,
+.theme4 .color1 .btn-big,
+.theme4 .item h2,
+.theme4 .item .inner:before,
+.theme4 .filters a:hover,
+.theme4 .filters li.active a,
+.theme4 .color2 .filters a,
+.theme4 .color2 .isotope-loading,
+.theme4 .color2 .isotope-loading a,
+.theme4 .color3 .isotope-loading,
+.theme4 .color3 .isotope-loading a,
+.theme4 .color1 .search,
+.theme4 .color1 .search a,
+.theme4 .color1 .search input,
+.theme4 .color1 form input,
+.theme4 .color1 form textarea,
+.theme4 .color1 ul.categories a,
+.theme4 .color1 .accordion .acc-title {
+	color: #fff !important; /* !important because footer icon color */
+}
+::selection{
+	color: #fff !important;
+}
+::-moz-selection {  /* has to be separated from ::selection */
+	color: #fff;
+}
+
+.theme4 .color1,
+.theme4 .color1 .arrow,
+.theme4 .color1 .iconic > :first-child:before,
+.theme4 .color1 .iconic:after,
+.theme4 .color2 .btn-small:hover,
+.theme4 .color2 .btn-big:hover,
+.theme4 .color3 .btn-small:hover,
+.theme4 .color3 .btn-big:hover,
+.theme4 .color3 ul.categories a,
+.theme4 .color2 form input,
+.theme4 .color2 form textarea,
+.theme4 .color2 .accordion .acc-title,
+.theme4 .color3 .accordion .acc-title {
+	background: #fff;
+}
+
+.theme4 .color2 .iconic > :first-child:before,
+.theme4 .color2 .iconic:before,
+.theme4 .color3 .iconic > :first-child:before,
+.theme4 .color3 .iconic:before,
+.theme4 .color2 .iconic h1:after, .theme4 .color2 .iconic h2:after, .theme4 .color2 .iconic h3:after, .theme4 .color2 .iconic h4:after,
+.theme4 .color3 .iconic h1:after, .theme4 .color3 .iconic h2:after, .theme4 .color3 .iconic h3:after, .theme4 .color2 .iconic h4:after {
+	border-color: #fff;
+}
+
+.theme4 .color2 .iconic:after,
+.theme4 header nav ul li a.sub:before,
+.theme4 .color3 .iconic:after{
+	border-color: #fff transparent;
+}
+
+/* Color2 */
+.theme4 .color3.tagline span,
+.theme4 .color3 a,
+.theme4 .color1 a,
+.theme4 .color1 h1 span, .theme4 .color3 h1 span,
+.theme4 .color1 h2 span, .theme4 .color3 h2 span,
+.theme4 .color1 h3 span, .theme4 .color3 h3 span,
+.theme4 .color1 h4 span, .theme4 .color3 h4 span,
+.theme4 .color1 h5 span, .theme4 .color3 h5 span,
+.theme4 .color1 h6 span, .theme4 .color3 h6 span,
+.theme4 .color1 .tags a:hover,
+.theme4 .color2 .btn-small,
+.theme4 .color2 .btn-big,
+.theme4 .color3 .iconic:before,
+.theme4 .color1 .tagline span,
+.theme4 .color1 ul.tags:before,
+.theme4 .color1 .isotope-loading span,
+.theme4 .color3 .isotope-loading span,
+.theme4 .color1 ul.social a:hover,
+.theme4 .color3 .google-map,
+.theme4 .color2 .post-content span,
+.theme4 .comments span:before,
+.theme4 .color2 .accordion .acc-title {
+	color: #728b1b;
+}
+
+.theme4 header.color2,
+.theme4 .color2,
+.theme4 .color2 .arrow,
+.theme4 .color2 .iconic > :first-child:before,
+.theme4 .color2 .iconic:after,
+.theme4 .color2 .iconic:after,
+.theme4 .flex-direction-nav li a,
+.theme4 .color1 .btn-small,
+.theme4 .color1 .btn-big,
+.theme4 .color3 .btn-small,
+.theme4 .color3 .btn-big,
+.theme4 .color3 ul.categories a:hover,
+.theme4 .color1 ul.categories a:hover,
+.theme4 .item .inner:before,
+.theme4 .color1 .filters ul li.active > a,
+.theme4 .color1 .filters ul li a:hover,
+.theme4 .color3 .filters ul li.active > a,
+.theme4 .color3 .filters ul li a:hover,
+.theme4 .color1 .search, .theme4 .color1 .search input,
+.theme4 .color1 .accordion .active .acc-title,
+.theme4 .color1 .accordion .acc-title:hover,
+.theme4 .color3 .accordion .active .acc-title,
+.theme4 .color3 .accordion .acc-title:hover {
+	background: #728b1b;
+}
+::selection{
+	background: #728b1b;
+}
+::-moz-selection {  /* has to be separated from ::selection */
+	background: #728b1b;
+}
+
+.theme4 .color1 .iconic > :first-child:before,
+.theme4 .color1 .iconic:before,
+.theme4 .color1 .iconic h1:after, .theme4 .color1 .iconic h2:after, .theme4 .color1 .iconic h3:after, .theme4 .color1 .iconic h4:after {
+	border-color: #728b1b;
+}
+
+.theme4 .color1 .iconic:after {
+	border-color: #728b1b transparent;
+}
+
+/* Color3 */
+body.theme4,
+.theme4 .color2 a,
+.theme4 .color2.tagline span,
+.theme4 header .title span,
+.theme4 .color2 h1 span,
+.theme4 .color2 h2 span,
+.theme4 .color2 h3 span,
+.theme4 .color2 h4 span,
+.theme4 .color2 h5 span,
+.theme4 .color2 h6 span,
+.theme4 .color1 .iconic > :first-child:before,
+.theme4 .color1 .tags a,
+.theme4 .color3 .btn-small,
+.theme4 .color3 .btn-big,
+.theme4 .color3 ul.categories a,
+.theme4 .color2 .iconic:before,
+.theme4 .color1 .tagline,
+.theme4 .color2 .tagline span,
+.theme4 .color1 .filters a,
+.theme4 .color1 .isotope-loading,
+.theme4 .color1 .isotope-loading a,
+.theme4 .color2 .isotope-loading span,
+.theme4 .color1 ul.social a,
+input, textarea,
+.theme4 .color3 .accordion .acc-title {
+	color: #312a1e;
+}
+
+.theme4 header nav ul li.active > a,
+.theme4 header nav ul li a:hover,
+.theme4 .full.color3,
+.theme4 .color3 .arrow,
+.theme4 .taglineimg .caption-bg,
+.theme4 .color3 .arrow,
+.theme4 .color3 .iconic > :first-child:before,
+.theme4 .color3 .iconic:after,
+.theme4 .flex-direction-nav li a:hover,
+.theme4 footer ul.social a:hover,
+.theme4 footer ul.social li.active a:hover,
+.theme4 .color1 .btn-small:hover,
+.theme4 .color1 .btn-big:hover,
+.theme4 .color2 .btn-small,
+.theme4 .color2 .btn-big,
+.theme4 .item .post-content,
+.theme4 .color2 .filters ul li.active > a,
+.theme4 .color2 .filters ul li a:hover,
+.theme4 .color3 .google-map,
+.theme4 .color1 form input,
+.theme4 .color1 form textarea,
+.theme4 .color1 ul.categories a,
+.theme4 .color1 .accordion .acc-title,
+.theme4 .color2 .accordion .active .acc-title,
+.theme4 .color2 .accordion .acc-title:hover {
+	background: #312a1e;
+}
+
+.theme4 header,
+.theme4 footer{
+	border-color: #312a1e;
+}
+
+.theme4 header nav ul li a.sub:hover:before,
+.theme4 header nav ul li.active > a:before{
+	border-color: #312a1e transparent;
+}
+
+.theme4 .slides_container .caption{
+	background: #312a1e;
+	background: rgba(49, 42, 30, 0.5);
+}

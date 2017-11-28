@@ -1,0 +1,211 @@
+/* *****************************************************************************************************************
+ * Theme6
+ */
+
+/* Color1 */
+
+.theme6 header,
+.theme6 header a,
+.theme6 .full.color3,
+.theme6 .color3 .tagline,
+.theme6 .color2,
+.theme6 .slides_container .caption,
+.theme6 .flex-direction-nav li a:before,
+.theme6 footer ul.social a,
+.theme6 .color1 .btn-small,
+.theme6 .color1 .btn-big,
+.theme6 .item h2,
+.theme6 .item .inner:before,
+.theme6 .filters a:hover,
+.theme6 .filters li.active a,
+.theme6 .color2 .filters a,
+.theme6 .color2 .isotope-loading,
+.theme6 .color2 .isotope-loading a,
+.theme6 .color3 .isotope-loading,
+.theme6 .color3 .isotope-loading a,
+.theme6 .color1 .search,
+.theme6 .color1 .search a,
+.theme6 .color1 .search input,
+.theme6 .color1 form input,
+.theme6 .color1 form textarea,
+.theme6 .color1 ul.categories a,
+.theme6 .color1 .accordion .acc-title {
+	color: #333 !important; /* !important because footer icon color */
+}
+::selection{
+	color: #333 !important;
+}
+::-moz-selection {  /* has to be separated from ::selection */
+	color: #333;
+}
+
+.theme6 .color1,
+.theme6 .color1 .arrow,
+.theme6 .color1 .iconic > :first-child:before,
+.theme6 .color1 .iconic:after,
+.theme6 .color2 .btn-small:hover,
+.theme6 .color2 .btn-big:hover,
+.theme6 .color3 .btn-small:hover,
+.theme6 .color3 .btn-big:hover,
+.theme6 .color3 ul.categories a,
+.theme6 .color2 form input,
+.theme6 .color2 form textarea,
+.theme6 .color2 .accordion .acc-title,
+.theme6 .color3 .accordion .acc-title {
+	background: #333;
+}
+
+.theme6 .color2 .iconic > :first-child:before,
+.theme6 .color2 .iconic:before,
+.theme6 .color3 .iconic > :first-child:before,
+.theme6 .color3 .iconic:before,
+.theme6 .color2 .iconic h1:after, .theme6 .color2 .iconic h2:after, .theme6 .color2 .iconic h3:after, .theme6 .color2 .iconic h4:after,
+.theme6 .color3 .iconic h1:after, .theme6 .color3 .iconic h2:after, .theme6 .color3 .iconic h3:after, .theme6 .color2 .iconic h4:after {
+	border-color: #333;
+}
+
+.theme6 .color2 .iconic:after,
+.theme6 header nav ul li a.sub:before,
+.theme6 .color3 .iconic:after{
+	border-color: #333 transparent;
+}
+
+/* Color2 */
+.theme6 .color3.tagline span,
+.theme6 .color3 a,
+.theme6 .color1 a,
+.theme6 .color1 h1 span, .theme6 .color3 h1 span,
+.theme6 .color1 h2 span, .theme6 .color3 h2 span,
+.theme6 .color1 h3 span, .theme6 .color3 h3 span,
+.theme6 .color1 h4 span, .theme6 .color3 h4 span,
+.theme6 .color1 h5 span, .theme6 .color3 h5 span,
+.theme6 .color1 h6 span, .theme6 .color3 h6 span,
+.theme6 .color1 .tags a:hover,
+.theme6 .color2 .btn-small,
+.theme6 .color2 .btn-big,
+.theme6 .color3 .iconic:before,
+.theme6 .color1 .tagline span,
+.theme6 .color1 ul.tags:before,
+.theme6 .color1 .isotope-loading span,
+.theme6 .color3 .isotope-loading span,
+.theme6 .color1 ul.social a:hover,
+.theme6 .color3 .google-map,
+.theme6 .color2 .post-content span,
+.theme6 .comments span:before,
+.theme6 .color2 .accordion .acc-title {
+		color: #fefefe;
+}
+
+.theme6 header.color2,
+.theme6 .color2,
+.theme6 .color2 .arrow,
+.theme6 .color2 .iconic > :first-child:before,
+.theme6 .color2 .iconic:after,
+.theme6 .color2 .iconic:after,
+.theme6 .flex-direction-nav li a,
+.theme6 .color1 .btn-small,
+.theme6 .color1 .btn-big,
+.theme6 .color3 .btn-small,
+.theme6 .color3 .btn-big,
+.theme6 .color3 ul.categories a:hover,
+.theme6 .color1 ul.categories a:hover,
+.theme6 .item .inner:before,
+.theme6 .color1 .filters ul li.active > a,
+.theme6 .color1 .filters ul li a:hover,
+.theme6 .color3 .filters ul li.active > a,
+.theme6 .color3 .filters ul li a:hover,
+.theme6 .color1 .search, .theme6 .color1 .search input,
+.theme6 .color1 .accordion .active .acc-title,
+.theme6 .color1 .accordion .acc-title:hover,
+.theme6 .color3 .accordion .active .acc-title,
+.theme6 .color3 .accordion .acc-title:hover {
+	background: #fefefe;
+}
+::selection{
+	background: #fefefe;
+}
+::-moz-selection {  /* has to be separated from ::selection */
+	background: #fefefe;
+}
+
+.theme6 .color1 .iconic > :first-child:before,
+.theme6 .color1 .iconic:before,
+.theme6 .color1 .iconic h1:after, .theme6 .color1 .iconic h2:after, .theme6 .color1 .iconic h3:after, .theme6 .color1 .iconic h4:after {
+	border-color: #fefefe;
+}
+
+.theme6 .color1 .iconic:after {
+	border-color: #fefefe transparent;
+}
+
+/* Color3 */
+body.theme6,
+.theme6 .color2 a,
+.theme6 .color2.tagline span,
+.theme6 header .title span,
+.theme6 .color2 h1 span,
+.theme6 .color2 h2 span,
+.theme6 .color2 h3 span,
+.theme6 .color2 h4 span,
+.theme6 .color2 h5 span,
+.theme6 .color2 h6 span,
+.theme6 .color1 .iconic > :first-child:before,
+.theme6 .color1 .tags a,
+.theme6 .color3 .btn-small,
+.theme6 .color3 .btn-big,
+.theme6 .color3 ul.categories a,
+.theme6 .color2 .iconic:before,
+.theme6 .color1 .tagline,
+.theme6 .color2 .tagline span,
+.theme6 .color1 .filters a,
+.theme6 .color1 .isotope-loading,
+.theme6 .color1 .isotope-loading a,
+.theme6 .color2 .isotope-loading span,
+.theme6 .color1 ul.social a,
+input, textarea,
+.theme6 .color3 .accordion .acc-title {
+	color: #bbb;
+}
+
+.theme6 header nav ul li.active > a,
+.theme6 header nav ul li a:hover,
+.theme6 .full.color3,
+.theme6 .color3 .arrow,
+.theme6 .taglineimg .caption-bg,
+.theme6 .color3 .arrow,
+.theme6 .color3 .iconic > :first-child:before,
+.theme6 .color3 .iconic:after,
+.theme6 .flex-direction-nav li a:hover,
+.theme6 footer ul.social a:hover,
+.theme6 footer ul.social li.active a:hover,
+.theme6 .color1 .btn-small:hover,
+.theme6 .color1 .btn-big:hover,
+.theme6 .color2 .btn-small,
+.theme6 .color2 .btn-big,
+.theme6 .item .post-content,
+.theme6 .color2 .filters ul li.active > a,
+.theme6 .color2 .filters ul li a:hover,
+.theme6 .color3 .google-map,
+.theme6 .color1 form input,
+.theme6 .color1 form textarea,
+.theme6 .color1 ul.categories a,
+.theme6 .color1 .accordion .acc-title,
+.theme6 .color2 .accordion .active .acc-title,
+.theme6 .color2 .accordion .acc-title:hover {
+	background: #bbb;
+}
+
+.theme6 header,
+.theme6 footer{
+	border-color: #bbb;
+}
+
+.theme6 header nav ul li a.sub:hover:before,
+.theme6 header nav ul li.active > a:before{
+	border-color: #bbb transparent;
+}
+
+.theme6 .slides_container .caption{
+	background: #bbb;
+	background: rgba(187, 187, 187, 0.5);
+}

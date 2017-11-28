@@ -1,0 +1,211 @@
+/* *****************************************************************************************************************
+ * Theme10
+ */
+
+/* Color1 */
+
+.theme10 header,
+.theme10 header a,
+.theme10 .full.color3,
+.theme10 .color3 .tagline,
+.theme10 .color2,
+.theme10 .slides_container .caption,
+.theme10 .flex-direction-nav li a:before,
+.theme10 footer ul.social a,
+.theme10 .color1 .btn-small,
+.theme10 .color1 .btn-big,
+.theme10 .item h2,
+.theme10 .item .inner:before,
+.theme10 .filters a:hover,
+.theme10 .filters li.active a,
+.theme10 .color2 .filters a,
+.theme10 .color2 .isotope-loading,
+.theme10 .color2 .isotope-loading a,
+.theme10 .color3 .isotope-loading,
+.theme10 .color3 .isotope-loading a,
+.theme10 .color1 .search,
+.theme10 .color1 .search a,
+.theme10 .color1 .search input,
+.theme10 .color1 form input,
+.theme10 .color1 form textarea,
+.theme10 .color1 ul.categories a,
+.theme10 .color1 .accordion .acc-title {
+	color: #eeeae1 !important; /* !important because footer icon color */
+}
+::selection{
+	color: #eeeae1 !important;
+}
+::-moz-selection {  /* has to be separated from ::selection */
+	color: #eeeae1;
+}
+
+.theme10 .color1,
+.theme10 .color1 .arrow,
+.theme10 .color1 .iconic > :first-child:before,
+.theme10 .color1 .iconic:after,
+.theme10 .color2 .btn-small:hover,
+.theme10 .color2 .btn-big:hover,
+.theme10 .color3 .btn-small:hover,
+.theme10 .color3 .btn-big:hover,
+.theme10 .color3 ul.categories a,
+.theme10 .color2 form input,
+.theme10 .color2 form textarea,
+.theme10 .color2 .accordion .acc-title,
+.theme10 .color3 .accordion .acc-title {
+	background: #eeeae1;
+}
+
+.theme10 .color2 .iconic > :first-child:before,
+.theme10 .color2 .iconic:before,
+.theme10 .color3 .iconic > :first-child:before,
+.theme10 .color3 .iconic:before,
+.theme10 .color2 .iconic h1:after, .theme10 .color2 .iconic h2:after, .theme10 .color2 .iconic h3:after, .theme10 .color2 .iconic h4:after,
+.theme10 .color3 .iconic h1:after, .theme10 .color3 .iconic h2:after, .theme10 .color3 .iconic h3:after, .theme10 .color2 .iconic h4:after {
+	border-color: #eeeae1;
+}
+
+.theme10 .color2 .iconic:after,
+.theme10 header nav ul li a.sub:before,
+.theme10 .color3 .iconic:after{
+	border-color: #eeeae1 transparent;
+}
+
+/* Color2 */
+.theme10 .color3.tagline span,
+.theme10 .color3 a,
+.theme10 .color1 a,
+.theme10 .color1 h1 span, .theme10 .color3 h1 span,
+.theme10 .color1 h2 span, .theme10 .color3 h2 span,
+.theme10 .color1 h3 span, .theme10 .color3 h3 span,
+.theme10 .color1 h4 span, .theme10 .color3 h4 span,
+.theme10 .color1 h5 span, .theme10 .color3 h5 span,
+.theme10 .color1 h6 span, .theme10 .color3 h6 span,
+.theme10 .color1 .tags a:hover,
+.theme10 .color2 .btn-small,
+.theme10 .color2 .btn-big,
+.theme10 .color3 .iconic:before,
+.theme10 .color1 .tagline span,
+.theme10 .color1 ul.tags:before,
+.theme10 .color1 .isotope-loading span,
+.theme10 .color3 .isotope-loading span,
+.theme10 .color1 ul.social a:hover,
+.theme10 .color3 .google-map,
+.theme10 .color2 .post-content span,
+.theme10 .comments span:before,
+.theme10 .color2 .accordion .acc-title {
+	color: #111;
+}
+
+.theme10 header.color2,
+.theme10 .color2,
+.theme10 .color2 .arrow,
+.theme10 .color2 .iconic > :first-child:before,
+.theme10 .color2 .iconic:after,
+.theme10 .color2 .iconic:after,
+.theme10 .flex-direction-nav li a,
+.theme10 .color1 .btn-small,
+.theme10 .color1 .btn-big,
+.theme10 .color3 .btn-small,
+.theme10 .color3 .btn-big,
+.theme10 .color3 ul.categories a:hover,
+.theme10 .color1 ul.categories a:hover,
+.theme10 .item .inner:before,
+.theme10 .color1 .filters ul li.active > a,
+.theme10 .color1 .filters ul li a:hover,
+.theme10 .color3 .filters ul li.active > a,
+.theme10 .color3 .filters ul li a:hover,
+.theme10 .color1 .search, .theme10 .color1 .search input,
+.theme10 .color1 .accordion .active .acc-title,
+.theme10 .color1 .accordion .acc-title:hover,
+.theme10 .color3 .accordion .active .acc-title,
+.theme10 .color3 .accordion .acc-title:hover {
+	background: #111;
+}
+::selection{
+	background: #111;
+}
+::-moz-selection {  /* has to be separated from ::selection */
+	background: #111;
+}
+
+.theme10 .color1 .iconic > :first-child:before,
+.theme10 .color1 .iconic:before,
+.theme10 .color1 .iconic h1:after, .theme10 .color1 .iconic h2:after, .theme10 .color1 .iconic h3:after, .theme10 .color1 .iconic h4:after {
+	border-color: #111;
+}
+
+.theme10 .color1 .iconic:after {
+	border-color: #111 transparent;
+}
+
+/* Color3 */
+body.theme10,
+.theme10 .color2 a,
+.theme10 .color2.tagline span,
+.theme10 header .title span,
+.theme10 .color2 h1 span,
+.theme10 .color2 h2 span,
+.theme10 .color2 h3 span,
+.theme10 .color2 h4 span,
+.theme10 .color2 h5 span,
+.theme10 .color2 h6 span,
+.theme10 .color1 .iconic > :first-child:before,
+.theme10 .color1 .tags a,
+.theme10 .color3 .btn-small,
+.theme10 .color3 .btn-big,
+.theme10 .color3 ul.categories a,
+.theme10 .color2 .iconic:before,
+.theme10 .color1 .tagline,
+.theme10 .color2 .tagline span,
+.theme10 .color1 .filters a,
+.theme10 .color1 .isotope-loading,
+.theme10 .color1 .isotope-loading a,
+.theme10 .color2 .isotope-loading span,
+.theme10 .color1 ul.social a,
+input, textarea,
+.theme10 .color3 .accordion .acc-title {
+	color: #a6132c;
+}
+
+.theme10 header nav ul li.active > a,
+.theme10 header nav ul li a:hover,
+.theme10 .full.color3,
+.theme10 .color3 .arrow,
+.theme10 .taglineimg .caption-bg,
+.theme10 .color3 .arrow,
+.theme10 .color3 .iconic > :first-child:before,
+.theme10 .color3 .iconic:after,
+.theme10 .flex-direction-nav li a:hover,
+.theme10 footer ul.social a:hover,
+.theme10 footer ul.social li.active a:hover,
+.theme10 .color1 .btn-small:hover,
+.theme10 .color1 .btn-big:hover,
+.theme10 .color2 .btn-small,
+.theme10 .color2 .btn-big,
+.theme10 .item .post-content,
+.theme10 .color2 .filters ul li.active > a,
+.theme10 .color2 .filters ul li a:hover,
+.theme10 .color3 .google-map,
+.theme10 .color1 form input,
+.theme10 .color1 form textarea,
+.theme10 .color1 ul.categories a,
+.theme10 .color1 .accordion .acc-title,
+.theme10 .color2 .accordion .active .acc-title,
+.theme10 .color2 .accordion .acc-title:hover {
+	background: #a6132c;
+}
+
+.theme10 header,
+.theme10 footer{
+	border-color: #a6132c;
+}
+
+.theme10 header nav ul li a.sub:hover:before,
+.theme10 header nav ul li.active > a:before{
+	border-color: #a6132c transparent;
+}
+
+.theme10 .slides_container .caption{
+	background: #a6132c;
+	background: rgba(56, 56, 56, 0.5);
+}

@@ -1,0 +1,8 @@
+
+.msgboard{
+	text-align: center;
+	color: #fb6b5b;
+}
+
+.media-disabled{position:absolute;left:0;right:0;top:0;bottom:0;z-index:1000;background-color:#fff;opacity:0.4;filter:alpha(opacity=40);cursor:pointer}
+.media-selected{border:2px solid #11998F!important}

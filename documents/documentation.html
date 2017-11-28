@@ -1,0 +1,2278 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Blogit Cms Documentation</title>
+<!-- Mobile viewport optimized -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!-- Mobile Internet Explorer allows us to activate ClearType technology for smoothing fonts for easy reading -->
+<meta http-equiv="cleartype" content="on">
+
+<!-- Le styles -->
+<link href="css/bootswatch/Cosmo/bootstrap.min.css" rel="stylesheet">
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/themes/black-tie/jquery-ui.css" rel="stylesheet">
+<link href="css/jquery.tocify.css" rel="stylesheet">
+<link href="css/prettify.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="css/rainbow/themes/tomorrow-night.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/rainbowlines/theme.css" media="screen" />
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+
+      <!-- Le fav and touch icons -->
+      <link href="../assets/ico/favicon.ico" rel="shortcut icon">
+      <link href="../assets/ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+      <link href="../assets/ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+      <link href="../assets/ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+      <link href="../assets/ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
+    </head>
+
+    <body>
+
+
+
+
+      <div class="container-fluid" style="margin-top:50px;">
+        <div class="row">
+          <div class="tocify col-sm-3 col-md-3">
+            <div id="toc">
+            </div><!--/.well -->
+          </div><!--/span-->
+          <div class="col-sm-9 col-md-9">
+            <div class="jumbotron">
+              <h1>Blogit CMS</h1>
+
+              <br><br>
+
+              <h2>Description</h2>
+              <p></p>
+              <br>
+              <p>Blogit CMS is hosted on <a class="projectLinks" href="https://bitbucket.org" target="_blank">BitBucket</a> and is available for use under the <a class="projectLinks" href="#" target="_blank">Envato Market Licence</a>.  You can report bugs and discuss features on the <a href="#" target="_blank">Codecanyon Product Webpage</a>.
+              </p>
+              <p><a class="btn btn-primary btn-lg" href="http://blogit.haze.gr" target="_blank">Checkout Demo »</a></p>
+            </div>
+            <h3>Requirements</h3>
+            <br>
+            <p class="well">
+
+              *Developed with <a href="http://http://www.codeigniter.com/">Codeigniter</a> version: 2.2.0 
+              <br>
+              *Check out <a href="http://www.codeigniter.com/userguide2/">Codeigniter Manual here</a>
+              <br>
+              <br>
+              <span>The Blogit CMS is stand alone application with lifetime updates for no charge.</span>
+              <br>
+              You have to host the Blogit CMS online in order to work, or locally using WAMP, XAMP or MAMP Server etc.
+              <br>
+
+              <br>
+              -- PHP 5.3+ 
+              <br>
+              -- MYSQL 5+
+              <br>
+              -- PHP MYSQL Extension
+              <br>
+
+            </p>
+
+            <br>
+            <h3>Blogit Features</h3>
+            <br>
+            <p class="well">
+
+              -Blog
+              <br>
+              <br>
+              -Portfolio
+              <br>
+              <br>
+              -Menus
+              <br>
+              <br>
+              -Pages
+              <br>
+              --Blog Page
+              <br>
+              --Portfolio Page
+              <br>
+              --Custom Coded Page
+              <br>
+              <br>
+              -Modules
+              <br>
+              --Blog Modules(Latest Articles, Popular Articles)
+              <br>
+              --Portfolio Module(Latest Projects)
+              <br>
+              --Menu Module(Show menus everywhere you like on webpage)
+              <br>
+              --Image Slider Module
+              <br>
+              --Custom Coded Module
+              <br>
+              <br>
+              -Users
+              <br>
+              --Usergroups
+              <br>
+              --User Privilleges
+              <br>
+              --Usergroup Privilleges
+
+
+              <br>
+
+            </p>
+            <br>
+            <br>
+            <br>
+
+            <h2>Installation</h2>
+            <p class="well">
+              1. Place all folders and files inside your hosting root folder
+              <br>
+              <br>
+              2. Insert new.sql file to your database using phpMyAdmin or any other tool your hoster is providing
+              <br>
+              <br>
+              3. Visit <strong>application->config->database.php</strong> and change the database settings accordingly
+              <br>
+              <br>
+              4. Visit <strong>application->config->config.php</strong> and change these lines to your choise
+              <br>
+              <br>
+              <strong>
+                -------->    $config['base_url']  = 'http://www.your_awesome_domain_here.com/';
+                <br>
+                -------->    $config['site_url'] = 'http://www.your_awesome_domain_here.com/';
+              </strong>
+            </p>
+            <br>
+            <br>
+            <br>
+
+
+            <h2>Getting Started</h2>
+            <br>
+            <p><h3><a href="http://blogit.haze.gr">Online Demo</a></h3>
+            <p></p>
+            <p class="well">
+              <span class="note"><strong>Note: </strong> You can checkout the online demo of Blogit CMS on our hosted server. Demo will be updated every time a new Blogit version is released so you can check out all new features available.
+              </span>
+            </p>
+            <h3>Create Your First Page</h3>
+            <p class="well">
+              <span class="note"><strong>Follow the step by step guide to publish your first page</strong>
+              </span>
+            </p>
+            <p></p>
+            <br>
+
+            <h4>Frontend</h4>
+            <p class="well note">
+            --> Follow the "Admin Backend" link on the menu
+          </p>
+          <img width="920px" src="uploads/Home 2015-07-29 16-10-48.png">
+          <p></p>
+          <br>
+
+          <h4>Login</h4>
+
+          <p class="well note">
+          --> Login with username: <b>admin</b> || password: <b>password</b>
+        </p>
+        <img width="920px" src="uploads/Login-BlogIt 2015-07-29 16-21-13.png">
+        <p></p>  
+        <br>
+
+        <h4>Admin Dashboard</h4>
+
+        <p class="well note">
+        --> This is the Admin Dashboard
+      </p>
+      <img width="920px" src="uploads/BlogIt 2015-07-29 16-25-27.png">
+      <p></p>
+      <br>
+
+      <h4>Custom Coded Page</h4>
+
+      <p class="well note">
+      --> Let's Create About Us page using the custom coded page from Blogit
+    </p>
+    <img width="920px" src="uploads/BlogIt 2015-08-01 15-36-57.png">
+    <p></p>
+    <br>
+
+    <p class="well note">
+    --> You can paste or create any html code you like and build your page content.
+    <br>
+  --> Alternatively you can assign modules to your page to build your content dynamically.
+</p>
+<img width="920px" src="uploads/BlogIt 2015-08-01 15-42-29.png">
+<p></p>
+<br>
+
+<h5>Assign Modules to your page</h5>
+
+<p class="well note">
+--> Modules are used to construct your page layout dynamically.
+<br>
+--> Check more informations about modules <a href="#Modules"> here </a>.
+</p>
+<img width="920px" src="uploads/BlogIt 2015-08-01 15-49-50.png">
+<p></p>
+<br>
+
+<h5>Access Level</h5>
+
+<p class="well note">
+--> Choose who can access your new page.
+<br>
+--> Check more informations about access level and user privileges <a href=""> here </a>.
+</p>
+<img width="920px" src="uploads/BlogIt 2015-08-01 15-53-56.png">
+<p></p>
+<br>
+
+<h3>Webpage Menu</h3>
+<p class="well note">
+--> Each new menu you create, you have to assign it to a Menu Module(*see menu modules above), in order to be shown at the webpage
+<br>
+----> Assigning a module to a page is described above when we created our Custom Coded Page.
+<br>
+----> All modules are assigned to a module position. Template Positions are shown in the Templates Section
+</p>
+<p></p>
+<br>
+
+<h4>Create New Menu</h4>
+<p class="well note">
+--> Let's create our header menu, with links to our pages
+<br>
+---->   Visit Menus->Add Menu
+<br>
+------> Check the pages you want to be shown as links to the menu.
+<br>
+------> Check The access level of the menu (*who can see the menu).
+<br>
+------> Set the status to Published in order to be shown at the frontend.
+<br>
+
+</p>
+<img width="920px" src="uploads/BlogIt 2015-08-06 12-20-24.png">
+<p></p>
+<br>
+
+<h4>Set Menu Pages Order</h4>
+<p class="well note">
+--> Visit Menus-> Manage Menus -> *Your New Menu*
+<br>
+---->   Drag Drop using the yellow arrow at the left of each page to order the pages and click <strong>*Click here to Order Assigned Pages*</strong>
+<br>
+----> Assign more pages or remove pages using the yellow button at the top, <strong>*Assign More Pages*</strong>
+<br>
+</p>
+<img width="920px" src="uploads/BlogIt 2015-08-06 12-25-21.png">
+<p></p>
+<br>
+
+
+
+
+
+<h2>Modules</h2>
+<p class="well note">
+  Modules and page content
+</p>
+<br>
+</p>
+<img width="920px" src="uploads/BlogIt 2015-08-06 12-32-08.png">
+<p></p>
+<br>
+
+<h3>Modules Options</h3>
+<p class="well note">
+  These options are common for every module type
+</p>
+<br>
+</p>
+<br>
+
+<h4>Module Position</h4>
+<p class="well note">
+  Choose the template position you want your module to be shown inside the page
+  <br>
+  *Positions and the way to create one are described in <strong>For Developers -> Templates</strong>
+</p>
+<br>
+</p>
+<img width="920px" src="uploads/BlogIt 2015-08-06 13-23-29.png">
+<p></p>
+<br>
+
+<h4>Module Layout</h4>
+<p class="well note">
+  Module Layout is like a module template. You can create as many modules layouts for every type of module. That makes easier to create modules of same type, for use in different positions on the page.
+  <br>
+  *Module Layouts and the way to create one are described in <strong>For Developers -> Templates</strong>
+</p>
+<br>
+</p>
+<img width="920px" src="uploads/BlogIt 2015-08-06 13-41-34.png">
+<p></p>
+<br>
+
+<h4>Module Access Settings</h4>
+<p class="well note">
+  Access Level user must have in order to see module content. Let's say you want a module content to be visible only to NON Public users. Just select the privilege you have assigned to that usergroup that content must be visible and that's it. You are ready to go.          
+</p>
+<br>
+</p>
+<img width="920px" src="uploads/BlogIt 2015-08-06 13-44-55.png">
+<p></p>
+<br>
+
+
+<h3>Custom Code Module</h3>
+<p class="well note">
+  Place any custom html code you like inside <strong>Content</strong>
+  <br>
+  *Use the <strong>Source</strong> Button to put any html code inside
+</p>
+<br>
+</p>
+<img width="920px" src="uploads/BlogIt 2015-08-06 13-48-46.png">
+<p></p>
+<br>
+
+<h3>Image Slider Module</h3>
+<p class="well note">
+  Create Modules with images and images captions
+</p>
+<br>
+</p>
+<img width="920px" src="uploads/BlogIt 2015-08-06 13-51-52.png">
+<p></p>
+<br>
+<p class="well note">
+  Choose Photos clicking the <strong>File Browser</strong> button. A pop up window will appear.
+</p>
+<br>
+<img width="920px" src="uploads/BlogIt 2015-08-06 13-53-54.png">
+<p></p>
+<br>
+
+<h3>Portfolio Module</h3>
+<p class="well note">
+  List a chosen number of your portfolio projects
+  <br>
+  Just Choose the portfolio Categories you want
+</p>
+<br>
+</p>
+<img width="920px" src="uploads/BlogIt 2015-08-06 13-55-36.png">
+<p></p>
+<br>
+
+<h3>Menu Module</h3>
+<p class="well note">
+  Show a chosen menu
+</p>
+<br>
+</p>
+<img width="920px" src="uploads/BlogIt 2015-08-06 13-57-38.png">
+<p></p>
+<br>
+
+<h3>Blog Modules</h3>
+<p class="well note">
+  Latest Articles and Popular Articles
+  <br>
+  Choose the Blog Categories you like to show your latest or popular articles
+</p>
+<br>
+<img width="920px" src="uploads/BlogIt 2015-08-06 13-58-32.png">
+<p></p>
+<br>
+<img width="920px" src="uploads/BlogIt 2015-08-06 13-59-50.png">
+<p></p>
+<br>
+
+<h2>User Management</h2>
+<p class="well note">
+  How to structure your content depending on users access levels
+  <br>
+  *The ACL management is based on privileges that can be granted by users <strong>and/or</strong> usergroups. Example: 2 users assigned on the same usergroup, one can create new users but second one can only view users.
+</p>
+
+<h3>Create New User</h3>
+<p class="well note">
+  Just fill out the user credentials including the password field
+  <br>
+  *Password must contain at least 8 alphanumeric characters.
+  <br>
+  *You can assign the user to a usergroup. By default Blogit has 3 main usergroups: <strong>Public</strong>, <strong>Moderator</strong> and <strong>Master Admin</strong>
+
+</p>
+<br>
+<img width="920px" src="uploads/BlogIt 2015-08-06 17-06-40.png">
+<p></p>
+<p class="well note">
+  Choose your avatar using File Browser     
+</p>
+<img width="920px" src="uploads/BlogIt 2015-08-06 17-18-59.png">
+<br>
+<p></p>
+<p class="well note">
+  After You have created your new user, you can assign privileges different from the usergroup you assigned him/her.
+  <br>
+  *That function is usefull under different situations.  
+</p>    
+<img width="920px" src="uploads/BlogIt 2015-08-06 17-52-59.png">
+<p></p>
+<br>
+
+<h3>Create New Usergroup</h3>
+<p class="well note">
+ You can assign multiple Users in every Usergroup
+ <br>
+ A usergroup can access admin area only if <strong>"Is Admin Group"</strong> is enabled 
+</p>
+<br>
+<img width="920px" src="uploads/BlogIt 2015-08-06 17-55-50.png">
+<p></p>
+<br>
+<p class="well note">
+  After You have created your new usergroup, you can assign the privileges of the usergroup
+</p>
+<br>
+<img width="920px" src="uploads/BlogIt 2015-08-06 18-11-54.png">
+<p></p>
+<br>
+
+<h3>Create New Privilege</h3>
+<p class="well note">
+ Privileges is the core function of Blogit ACL. Each Usergroup and/or User can have multiple privileges.
+ <br>
+ <br>
+ *For your easiest way to manage frontend privileges we have added a simple way to seperate privileges used to manage the Blogit Backend. So each time you create a new privilege for Frontend(webpage only) use, 
+ <br>
+ just check the switch <strong>"For Frontend Use Only?"</strong>
+</p>
+<br>
+<img width="920px" src="uploads/BlogIt 2015-08-06 18-04-53.png">
+<p></p>
+<br>
+<img width="920px" src="uploads/BlogIt 2015-08-06 18-08-06.png">
+<br>
+
+
+<h2>For Developers</h2>
+<p class="well note">
+  Code stuff you can use to build a custom Frontend
+</p>
+
+<h3>Templating System</h3>
+<p class="well note">
+  The way blogit templating system is structured
+</p>
+<br>
+<img width="920px" src="uploads/templating_system_diagram.png">
+<p></p>
+
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    <h4 class="list-group-item-heading">Create new Template</h4>
+    <p class="list-group-item-text">
+    --> Template Code:
+    <br>
+    Create a folder with your new template name inside 
+    <br>
+    <strong>root->application->views->themes </strong></p>
+    <br>
+    <p class="list-group-item-text">
+    --> Template assets:
+    <br>
+    Create a folder with your new template name inside 
+    <br>
+    <strong>root->assets->themes->public_templates</strong></p>
+  </a>
+</div>
+
+<h4>How templating functions are loaded?</h4>
+According to the diagram above the logic structure of templating system, beggining from the outer to the inner functions are like :
+
+<br>
+
+<p class="well note">
+  1. main.php loads the Templates(<strong>echo $output</strong>) and/or positions if needed.
+  <br>
+  2. Templates loads positions inside the webpage.
+  <br>
+  3. Positions are modules loaders inside webpage template.Its position can load as many modules you like.
+
+  <br>
+  4. Modules are dynamic content loaders and each one can have its own unique layout(phtml).
+  <br>
+</p>
+
+
+<h4><strong>1. main.php</strong></h4>
+<p class="well note">
+  <strong>main.php</strong> file is the template loader called by <strong>root-->application-->core-->Public_Controller.php</strong>. 
+  <br>
+  System Automatically calls the chosen Default Template (by template title), <strong>main.php</strong> file.
+
+
+</p>
+
+<p class="well note">
+  Every main.php file contains the common html(eg: seo meta), css and js loader(described below).
+  <br>
+  Also you can load template positions(described below) on main.php file(eg: navigation position, footer position)
+</p>
+<br>
+<img width="920px" src="uploads/BlogIt 2015-08-08 13-08-36.png">
+<p></p>
+<br>
+
+<h5><strong>CSS Loader</strong></h5>
+<p class="well note">
+  The CSS files loader.
+  <br>
+  Loads automatically every .css file inside <strong>root->assets->themes->public_templates-->**your_template_name**-->css</strong>
+  <br>
+  Follow the diagram to the number <strong>5</strong>
+
+</p>
+
+<pre>          
+  <code data-language="php">
+
+    <?php
+    foreach($css as $file)
+    {
+      echo "\n\t\t";
+      ?><link rel="stylesheet" href="<?php echo $file; ?>" type="text/css" /><?php
+    } echo "\n\t";
+    ?>
+
+
+  </code>
+</pre>
+
+<h5><strong>JS Loader</strong></h5>
+<p class="well note">
+  The JS files loader.
+  <br>
+  Loads automatically every .js file inside <strong>root->assets->themes->public_templates-->**your_template_name**-->js</strong>
+  <br>
+  Follow the diagram to the number <strong>6</strong>
+</p>
+
+<pre>          
+  <code data-language="php">
+
+    <?php
+    foreach($js as $file){
+      echo "\n\t\t";
+      ?><script src="<?php echo $file; ?>"></script><?php
+    } echo "\n\t";
+    ?>
+
+  </code>
+</pre>
+
+<h5><strong>Google Analytics</strong></h5>
+<p class="well note">
+  Google Analytics loader.
+  <br>
+  Put the code at the bottom of your <strong>main.php</strong> file.
+</p>
+
+<pre>          
+  <code data-language="html">
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create','echo $settings->google_analytics_tracking_id', 'auto');
+      ga('send', 'pageview');*
+    </script>
+
+  </code>
+</pre>
+<pre>
+  *at line ga('create','echo $settings->google_analytics_tracking_id', 'auto');  don't forget to include php begging and ending of
+  echo $settings->google_analytics_tracking_id
+</pre>
+
+<br>
+
+<h5><strong>Load Page Template</strong></h5>
+<p class="well note">
+  We have 3 different page types: <strong>Blog</strong>, <strong>Portfolio</strong> and <strong>Custom</strong>
+  <br>
+  Also the are the 2 single page types: <strong>Single Article</strong> , <strong>Single Portfolio Project</strong>
+  <br>
+  Each type has a different template file inside <strong>2. Templates folder</strong> according to the diagram
+  <br>
+  The way to load template file inside main.php file is like the code below:
+</p>
+
+<pre>          
+  <code data-language="php">
+    echo $output;
+  </code>
+</pre>
+
+<br>
+
+<h5><strong>Load Positions</strong></h5>
+<p class="well note">
+  The way to load positions in the main.php is the exactly the same loading positions inside templates files.
+  <br>
+  <br>
+  <strong>***Remember: if you change the position file name, you have also to change the name, inside the main.php or template file, you have loaded the position</strong>
+</p>
+
+<pre>          
+  <code data-language="php">
+    echo $this->load->get_section('nav'); // Loads the position called 'nav'
+
+    echo $this->load->get_section('footer'); // Loads the position called 'footer'
+
+  </code>
+</pre>
+<p class="well note">
+  You can always check template positions from Blogit Backend just navigate through 
+  <br>
+  <strong>Themes-> **Your_Template**-> Positions</strong>
+</p>
+<img width="920px" src="uploads/BlogIt 2015-08-08 18-47-56.png">
+<p></p>
+<br>
+<br>
+
+<h4><strong>2. templates</strong></h4>
+<p class="well note">
+
+  Templates are loaded automatically based on the page type content
+
+</p>
+
+<br>
+<img width="920px" src="uploads/templates_folder_structure.png">
+<p></p>
+
+<br>
+<br>
+<h5><strong>2.1 frontend_blog_content.php</strong></h5>
+<p class="well note">
+ This template is used automatically when blogit renders frontend blog page. 
+</p>
+<p class="well note">
+ Use code below to Generate article list using a foreach loop and another foreach inside the first one to show article media like bellow.
+</p>
+<pre>
+  <code data-language="php">
+
+foreach ($articles as $article): 
+
+  foreach($articles_media as $media): 
+
+    if ($media->article_id == $article->id):
+
+
+      //Structure Articles Media data using 2.1.2 table bellow//
+
+    endif;
+
+  endforeach;
+
+  //Structure Articles data using 2.1.1 table bellow//
+
+endforeach; 
+
+  </code>
+</pre>
+
+<h6><strong>2.1.1 Articles Data</strong></h6>
+<p class="well note">
+Articles Data to structure blog page content
+</p>
+
+<table class="table table-striped table-bordered table-condensed">
+  <tbody><tr>
+    <th>Name</th>
+    <th>Data</th>
+    <th>Description</th>
+  </tr>
+
+  <tr>
+    <td>
+      Article ID
+    </td>
+    <td>echo $article->id;</td>
+    <td>Show article id</td>
+  </tr>
+
+  <tr>
+    <td>
+      Article Title
+    </td>
+    <td>echo $article->title;</td>
+    <td>Show article title</td>
+  </tr>
+
+  <tr>
+    <td>
+      Article Slug
+    </td>
+    <td>echo $article->slug;</td>
+    <td>Show article slug</td>
+  </tr>
+
+  <tr>
+    <td>
+      Article Publication Date
+    </td>
+    <td>echo $article->pubdate;</td>
+    <td>Show article Publication Date</td>
+  </tr>
+
+  <tr>
+    <td>
+      Article Created Date
+    </td>
+    <td>echo $article->created;</td>
+    <td>Show article creation date</td>
+  </tr>
+
+  <tr>
+    <td>
+      Article Author
+    </td>
+    <td>echo $article->upro_first_name.' '.$article->upro_last_name;</td>
+    <td>Show article author</td>
+  </tr>
+
+  <tr>
+    <td>
+      Article Category
+    </td>
+    <td>echo $article->category_title;</td>
+    <td>Show article category assigned</td>
+  </tr>
+
+  <tr>
+    <td>
+      Article Body
+    </td>
+    <td>
+      $string = word_limiter($article->body, 70);
+      <br>
+      echo $string;
+    </td>
+    <td>Show article Body with word limitation</td>
+  </tr>
+
+  <tr>
+    <td>
+      URL to single article page
+    </td>
+    <td>
+      
+    echo site_url();/echo $page->slug;/echo $article->category_slug;/article/echo $article->id;/echo $article->slug;
+
+    </td>
+    <td>Anchor href to link to single article page</td>
+  </tr>
+
+</tbody></table>
+<br>
+
+<h6><strong>2.1.2 Articles Media(images) Data</strong></h6>
+<p class="well note">
+Articles Media Data to structure blog page content
+</p>
+
+<table class="table table-striped table-bordered table-condensed">
+  <tbody><tr>
+    <th>Name</th>
+    <th>Data</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>
+     Image Path
+    </td>
+    <td>echo $media->image_path</td>
+    <td>Full path to image(for use with img src)</td>
+  </tr>
+
+  <tr>
+    <td>
+      Image Caption
+    </td>
+    <td>echo $media->image_caption</td>
+    <td>Shows Image Caption</td>
+  </tr>
+
+  <tr>
+    <td>
+      URL to single article page
+    </td>
+    <td>
+      
+    echo site_url();/echo $page->slug;/echo $article->category_slug;/article/echo $article->id;/echo $article->slug;
+
+    </td>
+    <td>Anchor href to link to single article page</td>
+  </tr>
+
+</tbody></table>
+<br>
+
+<h5><strong>2.2 frontend_custom_content.php</strong></h5>
+<p class="well note">
+ This template is used automatically when blogit renders frontend custom coded <strong>(html, php, javascript, etc...)</strong> page. 
+</p>
+<p class="well note">
+ Use code below to load the custom page content from blogit admin area(backend)
+</p>
+<pre>
+  <code data-language="php">
+
+echo $page->body;
+
+  </code>
+</pre>
+<br>
+
+<h5><strong>2.3 frontend_portfolio_content.php</strong></h5>
+<p class="well note">
+ This template is used automatically when blogit renders frontend portfolio page. 
+</p>
+<p class="well note">
+Use code below to Generate portfolio project list using a foreach loop and another foreach inside the first one to show project media like bellow.
+</p>
+<pre>
+  <code data-language="php">
+
+foreach ($projects as $project): 
+
+  foreach($projects_media as $media): 
+
+    if ($media->project_id == $project->id):
+
+
+      //Structure Projects Media data using 2.3.2 table bellow//
+
+    endif;
+
+  endforeach;
+
+  //Structure Projects data using 2.3.1 table bellow//
+
+endforeach; 
+
+  </code>
+</pre>
+
+<h6><strong>2.3.1 Projects Data</strong></h6>
+<p class="well note">
+Projects Data to structure Portfolio page content
+</p>
+
+<table class="table table-striped table-bordered table-condensed">
+  <tbody><tr>
+    <th>Name</th>
+    <th>Data</th>
+    <th>Description</th>
+  </tr>
+
+  <tr>
+    <td>
+      Project ID
+    </td>
+    <td>echo $project->id</td>
+    <td>Show project id</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Title
+    </td>
+    <td>echo $project->project_title</td>
+    <td>Show project title</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Slug
+    </td>
+    <td>echo $project->project_slug</td>
+    <td>Show project slug</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Description
+    </td>
+    <td>echo $project->project_description</td>
+    <td>Show project description</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Client Name
+    </td>
+    <td>echo $project->client_name</td>
+    <td>Show project client name</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Client Description
+    </td>
+    <td>echo $project->client_description</td>
+    <td>Show project client description</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Client Webpage
+    </td>
+    <td>echo $project->client_url</td>
+    <td>Show project client webpage url</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Webpage
+    </td>
+    <td>echo $project->project_url</td>
+    <td>Show project webpage url</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Company Proposal
+    </td>
+    <td>echo $project->company_proposal</td>
+    <td>Show company proposal for the project</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Developer
+    </td>
+    <td>echo $project->developer</td>
+    <td>Show project developer</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Date Is Finished
+    </td>
+    <td>echo $project->date_project_done</td>
+    <td>Show project date is delivered to client</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Category Title
+    </td>
+    <td>echo $project->category_title</td>
+    <td>Show project category title</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Category Slug
+    </td>
+    <td>echo $project->category_slug</td>
+    <td>Show project category slug</td>
+  </tr>
+
+  <tr>
+    <td>
+      URL to single project page
+    </td>
+    <td>
+      
+    echo site_url();/echo $page->slug;/echo $project->category_slug;/project/echo $project->id;/echo $project->project_slug;
+
+    </td>
+    <td>Anchor href to link to single project page</td>
+  </tr>
+
+</tbody></table>
+<br>
+
+<h6><strong>2.3.2 Projects Media(images) Data</strong></h6>
+<p class="well note">
+Projects Media Data to structure portfolio page content
+</p>
+
+<table class="table table-striped table-bordered table-condensed">
+  <tbody><tr>
+    <th>Name</th>
+    <th>Data</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>
+     Image Path
+    </td>
+    <td>echo $media->image_path</td>
+    <td>Full path to image(for use with img src)</td>
+  </tr>
+
+  <tr>
+    <td>
+      Image Caption
+    </td>
+    <td>echo $media->image_caption</td>
+    <td>Shows Image Caption</td>
+  </tr>
+
+  <tr>
+    <td>
+      URL to single project page
+    </td>
+    <td>
+      
+    echo site_url();/echo $page->slug;/echo $project->category_slug;/project/echo $project->id;/echo $project->project_slug;
+    </td>
+    <td>Anchor href to link to single article page</td>
+  </tr>
+
+</tbody></table>
+<br>
+
+
+<h5><strong>2.4 frontend_single_article.php</strong></h5>
+<p class="well note">
+ This template is used automatically when blogit renders frontend blog article page. 
+</p>
+<p class="well note">
+Generate Single Article Data
+</p>
+<pre>
+  <code data-language="php">
+
+foreach($articles_media as $media):
+
+  if ($media->article_id == $article->id):
+
+      //Structure Article Media data using 2.4.2 table bellow//
+
+  endif;
+
+endforeach;
+
+//Structure Article data using 2.4.1 table bellow//
+
+
+  </code>
+</pre>
+
+<h6><strong>2.4.1 Article Data</strong></h6>
+<p class="well note">
+Article Data to structure single article page content
+</p>
+
+<table class="table table-striped table-bordered table-condensed">
+  <tbody><tr>
+    <th>Name</th>
+    <th>Data</th>
+    <th>Description</th>
+  </tr>
+
+  <tr>
+    <td>
+      Article ID
+    </td>
+    <td>echo $article->id;</td>
+    <td>Show article id</td>
+  </tr>
+
+  <tr>
+    <td>
+      Article Title
+    </td>
+    <td>echo $article->title;</td>
+    <td>Show article title</td>
+  </tr>
+
+  <tr>
+    <td>
+      Article Slug
+    </td>
+    <td>echo $article->slug;</td>
+    <td>Show article slug</td>
+  </tr>
+
+  <tr>
+    <td>
+      Article Publication Date
+    </td>
+    <td>echo $article->pubdate;</td>
+    <td>Show article Publication Date</td>
+  </tr>
+
+  <tr>
+    <td>
+      Article Created Date
+    </td>
+    <td>echo $article->created;</td>
+    <td>Show article creation date</td>
+  </tr>
+
+  <tr>
+    <td>
+      Article Author
+    </td>
+    <td>echo $article->upro_first_name.' '.$article->upro_last_name;</td>
+    <td>Show article author</td>
+  </tr>
+
+  <tr>
+    <td>
+      Article Category
+    </td>
+    <td>echo $article->category_title;</td>
+    <td>Show article category assigned</td>
+  </tr>
+
+  <tr>
+    <td>
+      Article Body
+    </td>
+    <td>
+      echo $article->body;
+
+    </td>
+    <td>Show article Body</td>
+  </tr>
+
+</tbody></table>
+<br>
+
+<h6><strong>2.4.2 Article Media(images) Data</strong></h6>
+<p class="well note">
+Article Media Data to structure single article page content
+</p>
+
+<table class="table table-striped table-bordered table-condensed">
+  <tbody><tr>
+    <th>Name</th>
+    <th>Data</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>
+     Image Path
+    </td>
+    <td>echo $media->image_path</td>
+    <td>Full path to image(for use with img src)</td>
+  </tr>
+
+  <tr>
+    <td>
+      Image Caption
+    </td>
+    <td>echo $media->image_caption</td>
+    <td>Shows Image Caption</td>
+  </tr>
+
+</tbody></table>
+<br>
+
+<h5><strong>2.5 frontend_single_portfolio_project.php</strong></h5>
+<p class="well note">
+ This template is used automatically when blogit renders frontend portfolio project page. 
+</p>
+<p class="well note">
+ Use code below to Generate Single Portfolio Project Data 
+</p>
+<pre>
+  <code data-language="php">
+
+foreach($projects_media as $media): 
+
+  if ($media->project_id == $project->id):
+
+    //Structure Project Media data using 2.5.2 table bellow//
+
+  endif;
+
+endforeach;
+
+//Structure Project data using 2.5.1 table bellow//
+
+  </code>
+</pre>
+
+<h6><strong>2.5.1 Project Data</strong></h6>
+<p class="well note">
+Project Data to structure signle portfolio project page content
+</p>
+
+<table class="table table-striped table-bordered table-condensed">
+  <tbody><tr>
+    <th>Name</th>
+    <th>Data</th>
+    <th>Description</th>
+  </tr>
+
+  <tr>
+    <td>
+      Project ID
+    </td>
+    <td>echo $project->id</td>
+    <td>Show project id</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Title
+    </td>
+    <td>echo $project->project_title</td>
+    <td>Show project title</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Slug
+    </td>
+    <td>echo $project->project_slug</td>
+    <td>Show project slug</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Description
+    </td>
+    <td>echo $project->project_description</td>
+    <td>Show project description</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Client Name
+    </td>
+    <td>echo $project->client_name</td>
+    <td>Show project client name</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Client Description
+    </td>
+    <td>echo $project->client_description</td>
+    <td>Show project client description</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Client Webpage
+    </td>
+    <td>echo $project->client_url</td>
+    <td>Show project client webpage url</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Webpage
+    </td>
+    <td>echo $project->project_url</td>
+    <td>Show project webpage url</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Company Proposal
+    </td>
+    <td>echo $project->company_proposal</td>
+    <td>Show company proposal for the project</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Developer
+    </td>
+    <td>echo $project->developer</td>
+    <td>Show project developer</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Date Is Finished
+    </td>
+    <td>echo $project->date_project_done</td>
+    <td>Show project date is delivered to client</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Category Title
+    </td>
+    <td>echo $project->category_title</td>
+    <td>Show project category title</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Category Slug
+    </td>
+    <td>echo $project->category_slug</td>
+    <td>Show project category slug</td>
+  </tr>
+
+
+</tbody></table>
+<br>
+
+<h6><strong>2.5.2 Project Media(images) Data</strong></h6>
+<p class="well note">
+Project Media Data to structure single portfolio project page content
+</p>
+
+<table class="table table-striped table-bordered table-condensed">
+  <tbody><tr>
+    <th>Name</th>
+    <th>Data</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>
+     Image Path
+    </td>
+    <td>echo $media->image_path</td>
+    <td>Full path to image(for use with img src)</td>
+  </tr>
+
+  <tr>
+    <td>
+      Image Caption
+    </td>
+    <td>echo $media->image_caption</td>
+    <td>Shows Image Caption</td>
+  </tr>
+
+
+</tbody></table>
+<br>
+
+
+<h4><strong>3. positions</strong></h4>
+<p class="well note">
+  Positions are Modules Loaders.
+  <br>
+  Each position file must contain code below, in order to load modules content inside templates.
+</p>
+
+
+<pre>          
+  <code data-language="php">
+
+    <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+    if  (!empty($custom_modules))
+    {
+
+      foreach ($custom_modules as $module)
+      {
+
+        if ($module->privilege_id == 0 || $this->flexi_auth_lite->is_privileged($module->upriv_name))
+        {
+          if($module->position == $position)
+          {
+            if (file_exists($path_to_custom_module_layout . $module->module_layout)) include($path_to_custom_module_layout . $module->module_layout);
+
+          }
+        }
+
+      }
+
+    }   
+
+    if  (!empty($menu_modules))
+    {
+
+
+      foreach ($menu_modules as $module)
+      { 
+
+        if ($module->privilege_id == 0 || $this->flexi_auth_lite->is_privileged($module->upriv_name))
+        {
+          if($module->position == $position)
+          {
+
+            if (file_exists($path_to_menu_module_layout . $module->module_layout)) include($path_to_menu_module_layout . $module->module_layout);
+
+          }
+        }
+      }
+    }
+
+    if  (!empty($latest_articles_blog_modules))
+    {
+      foreach ($latest_articles_blog_modules as $module)
+      { 
+        if ($module->privilege_id == 0 || $this->flexi_auth_lite->is_privileged($module->upriv_name))
+        {
+          if($module->position == $position)
+          {
+                        //We get the latest_articles by categories using limit in the model query
+            $latest_articles_per_module = $this->frontend_model->get_blog_modules_latest_articles($module->id,$module->limit_articles_number);  
+
+            $latest_articles_media = $this->frontend_model->get_blog_modules_latest_articles_media($latest_articles_per_module);
+
+            if (file_exists($path_to_latest_articles_blog_module_layout . $module->module_layout)) include($path_to_latest_articles_blog_module_layout . $module->module_layout);
+          }
+        }
+      }
+    }
+
+    if  (!empty($popular_articles_blog_modules))
+    {
+      foreach ($popular_articles_blog_modules as $module)
+      { 
+        if ($module->privilege_id == 0 || $this->flexi_auth_lite->is_privileged($module->upriv_name))
+        {
+          if($module->position == $position)
+          {
+                      //We get the popular_articles by categories using limit in the model query
+            $popular_articles_per_module = $this->frontend_model->get_blog_modules_popular_articles($module->id,$module->limit_articles_number);  
+
+            $popular_articles_media = $this->frontend_model->get_blog_modules_popular_articles_media($popular_articles_per_module);
+
+            if (file_exists($path_to_popular_articles_blog_module_layout . $module->module_layout)) include($path_to_popular_articles_blog_module_layout . $module->module_layout);
+
+          }
+        }
+      }
+    }
+
+    if  (!empty($image_slider_modules))
+    {
+      foreach ($image_slider_modules as $module)
+      { 
+        if ($module->privilege_id == 0 || $this->flexi_auth_lite->is_privileged($module->upriv_name))
+        {
+          if($module->position == $position)
+          {
+                      //We get the images and captions from image_slider_module_content
+            $images_and_captions_per_module = $this->frontend_model->get_image_slider_images_and_caption($module->id);  
+
+            if (file_exists($path_to_image_slider_module_layout . $module->module_layout)) include($path_to_image_slider_module_layout . $module->module_layout);
+
+          }
+        }
+      }
+    }
+
+    if  (!empty($portfolio_modules))
+    {
+      foreach ($portfolio_modules as $module)
+      { 
+        if ($module->privilege_id == 0 || $this->flexi_auth_lite->is_privileged($module->upriv_name))
+        {
+          if($module->position == $position)
+          {
+                        //We get the portfolio projects by categories using limit in the model query
+            $projects_per_module = $this->frontend_model->get_portfolio_modules_projects($module->id,$module->limit_projects_number); 
+
+            $projects_media = $this->frontend_model->get_portfolio_modules_projects_media($projects_per_module);
+
+            if (file_exists($path_to_portfolio_module_layout . $module->module_layout)) include($path_to_portfolio_module_layout . $module->module_layout);
+          }
+        }
+      }
+    }
+
+    ?>
+  </code>
+</pre>
+
+<h4><strong>4. module_layouts</strong></h4>
+<p class="well note">
+  How modules interact with templating system and Frontend.
+  <br>
+  Each Module can have its own unique layout. Suppose you want to load latest articles at left-column of your template
+  and also show latest articles module on the center of your template area. As you can understand each layout has differences depending on the position you want to show it. So you can create as many layouts and build module data.We show you below the way to do it.
+</p>
+<p></p>
+<br>
+<img width="920px" src="uploads/modules_layouts_diagram.png">
+<p></p>
+<br>
+
+<h5><strong>4.1 blog_modules</strong></h5>
+<p class="well note">
+ Blog Modules Layouts
+ <br>
+ Blog Modules at this time are <strong>4.1.1 Latest Articles Module</strong> and <strong>4.1.2 Popular Articles Modules</strong>
+</p>
+
+<h6><strong>4.1.1 latest_articles</strong></h6>
+<p class="well note">
+ Use code below to generate latest_articles data in each different layout you create.
+</p>
+<pre>
+  <code data-language="php">
+  
+    foreach ($latest_articles_per_module as $latest_article):
+      foreach ($latest_articles_media as $media):
+        if ($media->article_id == $latest_article->id):
+
+          //Structure Latest Article Module Media data using 4.1.1.2 table bellow//
+
+        endif;
+      endforeach;
+
+      //Structure Latest Article Module data using 4.1.1.1 table bellow//
+
+    endforeach;
+
+  </code>
+</pre>
+
+<h7><strong>4.1.1.1 Latest articles Data</strong></h7>
+<p class="well note">
+Latest Articles Data to structure latest articles module data
+</p>
+
+<table class="table table-striped table-bordered table-condensed">
+  <tbody><tr>
+    <th>Name</th>
+    <th>Data</th>
+    <th>Description</th>
+  </tr>
+
+  <tr>
+    <td>
+      Module Title
+    </td>
+    <td>echo $module->title;</td>
+    <td>Show Module Title</td>
+  </tr>
+
+  <tr>
+    <td>
+      Latest Article ID
+    </td>
+    <td>echo $latest_article->id;</td>
+    <td>Show latest article id</td>
+  </tr>
+
+  <tr>
+    <td>
+      Latest Article Title
+    </td>
+    <td>echo $latest_article->title;</td>
+    <td>Show latest article title</td>
+  </tr>
+
+  <tr>
+    <td>
+      Latest Article Slug
+    </td>
+    <td>echo $latest_article->slug;</td>
+    <td>Show latest article slug</td>
+  </tr>
+
+  <tr>
+    <td>
+      Latest Article Publication Date
+    </td>
+    <td>echo $latest_article->pubdate;</td>
+    <td>Show latest article Publication Date</td>
+  </tr>
+
+  <tr>
+    <td>
+      Latest Article Created Date
+    </td>
+    <td>echo $latest_article->created;</td>
+    <td>Show latest article creation date</td>
+  </tr>
+
+  <tr>
+    <td>
+      Latest Article Author
+    </td>
+    <td>echo $latest_article->upro_first_name.' '.$latest_article->upro_last_name;</td>
+    <td>Show article author</td>
+  </tr>
+
+  <tr>
+    <td>
+      Latest Article Category
+    </td>
+    <td>echo $latest_article->category_title;</td>
+    <td>Show latest article category assigned</td>
+  </tr>
+
+    <tr>
+    <td>
+      Latest Article Category Slug
+    </td>
+    <td>echo $latest_article->category_slug;</td>
+    <td>Show latest article category slug assigned</td>
+  </tr>
+
+  <tr>
+    <td>
+      Latest Article Body
+    </td>
+    <td>
+      $string = word_limiter($latest_article->body, 10);
+      <br>
+      echo $string;
+    </td>
+    <td>Show latest article Body with word limitation</td>
+  </tr>
+
+  <tr>
+    <td>
+      URL to single article page
+    </td>
+    <td>
+      
+    echo site_url();/echo $blog_page_slug;/echo $latest_article->category_slug;/article/echo $latest_article->id;/echo $latest_article->slug;
+
+    </td>
+    <td>Anchor href to link to single article page</td>
+  </tr>
+
+</tbody></table>
+<br>
+
+<h7><strong>4.1.1.2 Latest Articles Media(images) Data</strong></h7>
+<p class="well note">
+Latest Articles Media Data to structure latest articles module media data
+</p>
+
+<table class="table table-striped table-bordered table-condensed">
+  <tbody><tr>
+    <th>Name</th>
+    <th>Data</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>
+     Image Path
+    </td>
+    <td>echo $media->image_path</td>
+    <td>Full path to image(for use with img src)</td>
+  </tr>
+
+  <tr>
+    <td>
+      Image Caption
+    </td>
+    <td>echo $media->image_caption</td>
+    <td>Shows Image Caption</td>
+  </tr>
+
+  <tr>
+    <td>
+      URL to single article page
+    </td>
+    <td>
+      
+    echo site_url();/echo $blog_page_slug;/echo $latest_article->category_slug;/article/echo $latest_article->id;/echo $latest_article->slug;
+
+    </td>
+    <td>Anchor href to link to single article page</td>
+  </tr>
+
+</tbody></table>
+<br>
+
+<h6><strong>4.1.2 popular_articles</strong></h6>
+<p class="well note">
+ Use code below to generate popular_articles data in each different layout you create.
+</p>
+<pre>
+  <code data-language="php">
+  
+    foreach ($popular_articles_per_module as $popular_article):
+      foreach ($popular_articles_media as $media):
+        if ($media->article_id == $popular_article->id):
+
+          //Structure Popular Article Module Media data using 4.1.2.2 table bellow//
+
+        endif;
+      endforeach;
+
+      //Structure Popular Article Module data using 4.1.2.1 table bellow//
+
+    endforeach;
+
+  </code>
+</pre>
+
+<h7><strong>4.1.2.1 Latest articles Data</strong></h7>
+<p class="well note">
+Popular Articles Data to structure popular articles module data
+</p>
+
+<table class="table table-striped table-bordered table-condensed">
+  <tbody><tr>
+    <th>Name</th>
+    <th>Data</th>
+    <th>Description</th>
+  </tr>
+
+  <tr>
+    <td>
+      Module Title
+    </td>
+    <td>echo $module->title;</td>
+    <td>Show Module Title</td>
+  </tr>
+
+  <tr>
+    <td>
+      Popular Article ID
+    </td>
+    <td>echo $popular_article->id;</td>
+    <td>Show popular article id</td>
+  </tr>
+
+  <tr>
+    <td>
+      Popular Article Title
+    </td>
+    <td>echo $popular_article->title;</td>
+    <td>Show popular article title</td>
+  </tr>
+
+  <tr>
+    <td>
+      Popular Article Slug
+    </td>
+    <td>echo $popular_article->slug;</td>
+    <td>Show popular article slug</td>
+  </tr>
+
+  <tr>
+    <td>
+      Popular Article Publication Date
+    </td>
+    <td>echo $popular_article->pubdate;</td>
+    <td>Show popular article Publication Date</td>
+  </tr>
+
+  <tr>
+    <td>
+      Popular Article Created Date
+    </td>
+    <td>echo $popular_article->created;</td>
+    <td>Show popular article creation date</td>
+  </tr>
+
+  <tr>
+    <td>
+      Popular Article Author
+    </td>
+    <td>echo $popular_article->upro_first_name.' '.$popular_article->upro_last_name;</td>
+    <td>Show article author</td>
+  </tr>
+
+  <tr>
+    <td>
+      Popular Article Category
+    </td>
+    <td>echo $popular_article->category_title;</td>
+    <td>Show popular article category assigned</td>
+  </tr>
+
+    <tr>
+    <td>
+      Popular Article Category Slug
+    </td>
+    <td>echo $popular_article->category_slug;</td>
+    <td>Show popular article category slug assigned</td>
+  </tr>
+
+  <tr>
+    <td>
+      Popular Article Body
+    </td>
+    <td>
+      $string = word_limiter($popular_article->body, 10);
+      <br>
+      echo $string;
+    </td>
+    <td>Show popular article Body with word limitation</td>
+  </tr>
+
+  <tr>
+    <td>
+      URL to single article page
+    </td>
+    <td>
+      
+    echo site_url();/echo $blog_page_slug;/echo $popular_article->category_slug;/article/echo $popular_article->id;/echo $popular_article->slug;
+
+    </td>
+    <td>Anchor href to link to single article page</td>
+  </tr>
+
+</tbody></table>
+<br>
+
+<h7><strong>4.1.2.2 Popular Articles Media(images) Data</strong></h7>
+<p class="well note">
+Popular Articles Media Data to structure popular articles module media data
+</p>
+
+<table class="table table-striped table-bordered table-condensed">
+  <tbody><tr>
+    <th>Name</th>
+    <th>Data</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>
+     Image Path
+    </td>
+    <td>echo $media->image_path</td>
+    <td>Full path to image(for use with img src)</td>
+  </tr>
+
+  <tr>
+    <td>
+      Image Caption
+    </td>
+    <td>echo $media->image_caption</td>
+    <td>Shows Image Caption</td>
+  </tr>
+
+  <tr>
+    <td>
+      URL to single article page
+    </td>
+    <td>
+      
+    echo site_url();/echo $blog_page_slug;/echo $popular_article->category_slug;/article/echo $popular_article->id;/echo $popular_article->slug;
+
+    </td>
+    <td>Anchor href to link to single article page</td>
+  </tr>
+
+</tbody></table>
+<br>
+
+<h5><strong>4.2 custom_modules</strong></h5>
+<p class="well note">
+ Use code below to generate custom modules data in each different layout you create.
+</p>
+<pre>
+  <code data-language="php">
+  
+    echo $module->title;
+
+    echo $module->body;
+
+  </code>
+</pre>
+<p></p>
+<br>
+
+<h5><strong>4.3 image_slider_modules</strong></h5>
+<p class="well note">
+ Use code below to generate image slider modules data in each different layout you create.
+</p>
+<pre>
+  <code data-language="php">
+  
+    foreach ($images_and_captions_per_module as $image_and_caption):
+
+      //Structure your image slider data using table 4.3.1 
+
+    endforeach;
+
+  </code>
+</pre>
+<p></p>
+<br>
+
+<h6><strong>4.3.1 Image Slider Modules Data</strong></h6>
+<p class="well note">
+Image Slider Modules Data to structure image slider module content
+</p>
+
+<table class="table table-striped table-bordered table-condensed">
+  <tbody><tr>
+    <th>Name</th>
+    <th>Data</th>
+    <th>Description</th>
+  </tr>
+
+  <tr>
+    <td>
+     Module Title
+    </td>
+    <td>echo $module->title;</td>
+    <td>Show module title</td>
+  </tr>
+
+  <tr>
+    <td>
+     Image Path
+    </td>
+    <td>echo base_url() . $image_and_caption->image_path</td>
+    <td>Full path to image(for use with img src)</td>
+  </tr>
+
+  <tr>
+    <td>
+      Image Caption
+    </td>
+    <td>echo $image_and_caption->image_caption</td>
+    <td>Shows Image Caption</td>
+  </tr>
+</tbody></table>
+<br>
+
+
+<h5><strong>4.4 menu_modules</strong></h5>
+<p class="well note">
+ Use code below to generate menu modules data in each different layout you create.
+</p>
+<pre>
+  <code data-language="php">
+
+  if (!empty($menu_items)) :
+
+    foreach ($menu_items as $menu_item) :
+
+      //If menu item is an external url
+      if($menu_item->page_type == 3) :
+
+        echo $menu_item->title;
+
+        //href for menu item external url link
+        echo $menu_item->external_url
+
+      else :
+
+        echo $menu_item->title;
+
+        //href for menu item page link
+        echo base_url();/echo $menu_item->slug
+
+      endif
+    endforeach
+  endif
+
+  </code>
+</pre>
+<p></p>
+<br>
+
+<h6><strong>4.4.1 Menu Modules Data</strong></h6>
+<p class="well note">
+Menu Modules Data to structure menu module content
+</p>
+
+<table class="table table-striped table-bordered table-condensed">
+  <tbody><tr>
+    <th>Name</th>
+    <th>Data</th>
+    <th>Description</th>
+  </tr>
+
+  <tr>
+    <td>
+     Module Title
+    </td>
+    <td>echo $module->title;</td>
+    <td>Show module title</td>
+  </tr>
+
+  <tr>
+    <td>
+     Menu Title
+    </td>
+    <td>echo $menu_item->title</td>
+    <td>Show menu title</td>
+  </tr>
+
+  <tr>
+    <td>
+      Menu Slug
+    </td>
+    <td>echo $menu_item->slug</td>
+    <td>Show Menu Slug</td>
+  </tr>
+</tbody></table>
+<br>
+
+
+<h5><strong>4.5 portfolio_modules</strong></h5>
+<p class="well note">
+ Use code below to generate portfolio modules data in each different layout you create.
+</p>
+
+<pre>
+  <code data-language="php">
+
+foreach ($projects as $project): 
+
+  foreach($projects_media as $media): 
+
+    if ($media->project_id == $project->id):
+
+
+      //Structure Projects Media data using 4.5.2 table bellow//
+
+    endif;
+
+  endforeach;
+
+  //Structure Projects data using 4.5.1 table bellow//
+
+endforeach; 
+
+  </code>
+</pre>
+
+<h6><strong>4.5.1 Projects Data</strong></h6>
+<p class="well note">
+Projects Data to structure Portfolio Module content
+</p>
+
+<table class="table table-striped table-bordered table-condensed">
+  <tbody><tr>
+    <th>Name</th>
+    <th>Data</th>
+    <th>Description</th>
+  </tr>
+
+  <tr>
+    <td>
+      Module Title
+    </td>
+    <td>echo $module->title</td>
+    <td>Show module title</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project ID
+    </td>
+    <td>echo $project->id</td>
+    <td>Show project id</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Title
+    </td>
+    <td>echo $project->project_title</td>
+    <td>Show project title</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Slug
+    </td>
+    <td>echo $project->project_slug</td>
+    <td>Show project slug</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Description
+    </td>
+    <td>echo $project->project_description</td>
+    <td>Show project description</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Client Name
+    </td>
+    <td>echo $project->client_name</td>
+    <td>Show project client name</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Client Description
+    </td>
+    <td>echo $project->client_description</td>
+    <td>Show project client description</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Client Webpage
+    </td>
+    <td>echo $project->client_url</td>
+    <td>Show project client webpage url</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Webpage
+    </td>
+    <td>echo $project->project_url</td>
+    <td>Show project webpage url</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Company Proposal
+    </td>
+    <td>echo $project->company_proposal</td>
+    <td>Show company proposal for the project</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Developer
+    </td>
+    <td>echo $project->developer</td>
+    <td>Show project developer</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Date Is Finished
+    </td>
+    <td>echo $project->date_project_done</td>
+    <td>Show project date is delivered to client</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Category Title
+    </td>
+    <td>echo $project->category_title</td>
+    <td>Show project category title</td>
+  </tr>
+
+  <tr>
+    <td>
+      Project Category Slug
+    </td>
+    <td>echo $project->category_slug</td>
+    <td>Show project category slug</td>
+  </tr>
+
+  <tr>
+    <td>
+      URL to single project page
+    </td>
+    <td>
+      
+    echo site_url();/echo $portfolio_page_slug;/echo $project->category_slug;/project/echo $project->id;/echo $project->project_slug;
+
+    </td>
+    <td>Anchor href to link to single project page</td>
+  </tr>
+
+</tbody></table>
+<br>
+
+<h6><strong>4.5.2 Projects Media(images) Data</strong></h6>
+<p class="well note">
+Projects Media Data to structure portfolio module media xontent
+</p>
+
+<table class="table table-striped table-bordered table-condensed">
+  <tbody><tr>
+    <th>Name</th>
+    <th>Data</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>
+     Image Path
+    </td>
+    <td>echo $media->image_path</td>
+    <td>Full path to image(for use with img src)</td>
+  </tr>
+
+  <tr>
+    <td>
+      Image Caption
+    </td>
+    <td>echo $media->image_caption</td>
+    <td>Shows Image Caption</td>
+  </tr>
+
+  <tr>
+    <td>
+      URL to single project page
+    </td>
+    <td>
+      
+    echo site_url();/echo $portfolio_page_slug;/echo $project->category_slug;/project/echo $project->id;/echo $project->project_slug;
+    </td>
+    <td>Anchor href to link to single project page</td>
+  </tr>
+
+</tbody></table>
+<br>
+
+
+<h2>Copyright</h2>
+<p class="well">
+  Copyright © 2015 <a href="http://www.haze.gr" target="_blank"> haze web dev studio </a>
+</p>
+</div>
+</div><!--/row-->
+
+</div><!--/.fluid-container-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/rainbow/rainbow.min.js"></script>
+    <script src="js/rainbow/language/generic.js"></script>
+    <script src="js/rainbow/language/html.js"></script>
+    <script src="js/rainbow/language/css.js"></script>
+    <script src="js/rainbow/language/javascript.js"></script>
+    <script src="js/rainbowlines/rainbow.linenumbers.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.tocify.min.js"></script>
+    <script src="js/prettify.js"></script>
+
+    <script>
+      $(function() {
+
+        $("#toc").tocify({ selectors: "h2, h3, h4, h5, h6, h7", scrollTo: 60, highlightOffset: 60, extendPage: true });
+
+        prettyPrint();
+
+        $(".optionName").popover({ trigger: "hover", container: "body" });
+
+        $("a[href='#']").click(function(event) {
+
+          event.preventDefault();
+
+        });
+
+        Rainbow.color();
+      });
+    </script>
+
+  </div></body></html>
